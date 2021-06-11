@@ -5,12 +5,33 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ title ?? site:name }}</title>
-        <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+        <link rel="stylesheet" href="css/Navigation-Clean.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body class="bg-gray-100 font-sans leading-normal text-grey-800">
+        <header class="d-flex d-lg-flex flex-column justify-content-center align-items-center justify-content-lg-start align-items-lg-start" style="position: fixed;/*width: 100%;*/margin-top: 30px;z-index: 9999;"><a id="logo" href="index.html" style="z-index: 99999;"><img src="assets/Fidelis%20Distribution%20Logo.svg" style="width: 400px;position: relative;left: -20px;"></a>
+            <ul class="nav flex-column" style="margin-left: 54px;margin-top: 60px;font-family: Poppins, sans-serif;letter-spacing: 0.04em;z-index: 9999;">
+                <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Distributed Brands</a>
+                    <div class="dropdown-menu"><a class="dropdown-item" href="Brand%20page.html">Harbeth</a><a class="dropdown-item" href="Brand%20page.html">Stenheim</a><a class="dropdown-item" href="Brand%20page.html">etc.</a></div>
+                </li>
+                <li class="nav-item"></li>
+                <li class="nav-item"><a class="nav-link" href="Brand%20Ambassador.html">Brand Ambassador</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Find a Dealer</a></li>
+                <li class="nav-item"><a class="nav-link" href="About.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+            </ul>
+            <div id="left-gradient" style="background: linear-gradient(90deg, #050B20 0%, rgba(5, 11, 32, 0) 100%);position: fixed;top: 0;left: 0;width: 333px;height: 100%;z-index: 999;"></div>
+        </header>
         <div class="mx-auto px-2 h-screen flex items-center justify-center">
             {{ template_content }}
         </div>
         <script src="{{ mix src='/js/site.js' }}"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bs-init.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     </body>
 </html>
