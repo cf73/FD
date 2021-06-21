@@ -1,0 +1,5 @@
+title: PageNav
+collections:
+  - pages
+  - distributed_brands
+max_depth: 2
