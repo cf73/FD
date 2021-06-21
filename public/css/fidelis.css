@@ -1,3 +1,9 @@
+h1 {
+  font-size: 40000px; }
+
+body {
+  background-color: #070113; }
+
 .dimmer {
   position: absolute;
   top: 0;
@@ -6,12 +12,10 @@
   height: 100%;
   background-color: #070113;
   opacity: .1;
-  z-index: 9;
-}
+  z-index: 9; }
 
 .parallax-height {
-  height: 110vh;
-}
+  height: 110vh; }
 
 .text-content {
   position: absolute;
@@ -19,29 +23,34 @@
   left: 222px;
   width: calc(100% - 222px);
   height: 100%;
-  z-index: 99;
-}
+  z-index: 99; }
+
+.btn-primary {
+  color: #214b44;
+  background-color: #eae9f5;
+  border-color: #b6b5c3; }
+
+.btn-primary:hover {
+  color: #211b44;
+  background-color: #aeadbf;
+  border-color: #636270; }
 
 .nav-link {
   display: block;
   padding: .5rem 1rem;
   color: #b1b1b3;
   text-decoration: none;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-}
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; }
 
 a:hover {
-  color: #dad9e6;
-}
+  color: #dad9e6; }
 
 .nav-link:focus, .nav-link:hover {
-  color: #dad9e6;
-}
+  color: #dad9e6; }
 
 .dropdown-item:focus, .dropdown-item:hover {
   color: white;
-  background-color: rgb(40,39,59);
-}
+  background-color: #28273b; }
 
 .dropdown-item {
   display: block;
@@ -54,8 +63,7 @@ a:hover {
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
-  border: 0;
-}
+  border: 0; }
 
 .dropdown-menu {
   position: absolute;
@@ -70,21 +78,9 @@ a:hover {
   list-style: none;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid rgba(0,0,0,.15);
+  border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: .25rem;
   left: 60px;
-  background-color: rgba(6,12,31,0.75);
-}
+  background-color: rgba(6, 12, 31, 0.75); }
 
-.btn-primary {
-  color: #214b44;
-  background-color: #eae9f5;
-  border-color: #b6b5c3;
-}
-
-.btn-primary:hover {
-  color: #211b44;
-  background-color: #aeadbf;
-  border-color: #636270;
-}
-
+/*# sourceMappingURL=fidelis.css.map */

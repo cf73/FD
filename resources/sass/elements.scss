@@ -1,0 +1,36 @@
+.dimmer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $midnight;
+    opacity: .1;
+    z-index: 9;
+  }
+  
+  .parallax-height {
+    height: 110vh;
+  }
+  
+  .text-content {
+    position: absolute;
+    top: 0;
+    left: 222px;
+    width: calc(100% - 222px);
+    height: 100%;
+    z-index: 99;
+  }
+
+  .btn-primary {
+    color: #214b44;
+    background-color: #eae9f5;
+    border-color: #b6b5c3;
+  }
+  
+  .btn-primary:hover {
+    color: #211b44;
+    background-color: #aeadbf;
+    border-color: #636270;
+  }
+  
