@@ -2,6 +2,7 @@ title: 'Distributed Brands'
 template: default
 layout: layout
 revisions: false
+route: '/distributed-brands/{{title}}'
 sort_dir: asc
 date_behavior:
   past: public

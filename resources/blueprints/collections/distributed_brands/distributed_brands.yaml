@@ -22,6 +22,38 @@ sections:
           icon: assets
           listable: hidden
       -
+        handle: background-image
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: 'Background Image'
+          type: assets
+          icon: assets
+          instructions: 'Choose an image to show in the background on the brand page'
+          listable: hidden
+      -
+        handle: detail_image
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: 'Detail image'
+          type: assets
+          icon: assets
+          instructions: 'Choose an image that will display on the top of the brand page in the foreground'
+          listable: hidden
+      -
+        handle: template
+        field:
+          hide_partials: true
+          display: Template
+          type: hidden
+          listable: hidden
+          default: brand
+      -
         handle: logo
         field:
           mode: grid
