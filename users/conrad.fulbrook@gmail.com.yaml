@@ -2,3 +2,11 @@ name: 'Conrad Fulbrook'
 super: true
 id: 9e9e9f09-d942-49ec-a6d9-c55a0f708843
 password_hash: $2y$10$Ilhwo/DKAsGf492qNRSFu.5iP0R0skRoB33cVdn6P1U3zFzff/LAa
+preferences:
+  collections:
+    distributed_brands:
+      columns:
+        - title
+  assets:
+    assets:
+      mode: grid

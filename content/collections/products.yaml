@@ -1,0 +1,9 @@
+title: Products
+template: default
+layout: layout
+mount: fec2b563-2702-4560-b5b5-13a5b6c4a031
+revisions: false
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private

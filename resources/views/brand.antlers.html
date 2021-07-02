@@ -21,21 +21,13 @@
                 </div>
             </div>
             <div class="row" style="margin-top: 55px;">
+                {{ collection:products :brand:is="id" }}
                 <div class="col-4" data-aos="fade-up" data-aos-duration="1000"><img src="assets/img/162326963_10159136354086575_1801914367674829252_n.jpg" style="width: 100%;">
-                    <p style="color: rgb(209,210,238);font-family: Poppins, sans-serif;margin-top: 20px;font-size: 14px;line-height: 27px;letter-spacing: 0.04em;">Amazing clarity and astonishing bass from beautiful shoebox-sized speakers; the Harbeth P3ESR loudspeaker is the ultimate mini-monitor. The clean, clear Harbeth sound, in miniature.<br></p><button class="btn btn-primary" type="button">Explore the <strong>P3ESR</strong></button>
+                    <p style="color: rgb(209,210,238);font-family: Poppins, sans-serif;margin-top: 20px;font-size: 14px;line-height: 27px;letter-spacing: 0.04em;">
+                        {{brief_product_blurb}}
+                        </p><button class="btn btn-primary" type="button">Explore the <strong>{{title}}</strong></button>
                 </div>
-                <div class="col-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250"><img src="assets/img/162326963_10159136354086575_1801914367674829252_n.jpg" style="width: 100%;">
-                    <p style="color: rgb(209,210,238);font-family: Poppins, sans-serif;margin-top: 20px;font-size: 14px;line-height: 27px;letter-spacing: 0.04em;">Amazing clarity and astonishing bass from beautiful shoebox-sized speakers; the Harbeth P3ESR loudspeaker is the ultimate mini-monitor. The clean, clear Harbeth sound, in miniature.<br></p><button class="btn btn-primary" type="button">Explore</button>
-                </div>
-                <div class="col-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><img src="assets/img/162326963_10159136354086575_1801914367674829252_n.jpg" style="width: 100%;">
-                    <p style="color: rgb(209,210,238);font-family: Poppins, sans-serif;margin-top: 20px;font-size: 14px;line-height: 27px;letter-spacing: 0.04em;">Amazing clarity and astonishing bass from beautiful shoebox-sized speakers; the Harbeth P3ESR loudspeaker is the ultimate mini-monitor. The clean, clear Harbeth sound, in miniature.<br></p><button class="btn btn-primary" type="button">Explore</button>
-                </div>
-                <div class="col-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750" style="margin-top: 43px;"><img src="assets/img/162326963_10159136354086575_1801914367674829252_n.jpg" style="width: 100%;">
-                    <p style="color: rgb(209,210,238);font-family: Poppins, sans-serif;margin-top: 20px;font-size: 14px;line-height: 27px;letter-spacing: 0.04em;">Amazing clarity and astonishing bass from beautiful shoebox-sized speakers; the Harbeth P3ESR loudspeaker is the ultimate mini-monitor. The clean, clear Harbeth sound, in miniature.<br></p>
-                </div>
-                <div class="col-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000" style="padding-top: 43px;"><img src="assets/img/162326963_10159136354086575_1801914367674829252_n.jpg" style="width: 100%;">
-                    <p style="color: rgb(209,210,238);font-family: Poppins, sans-serif;margin-top: 20px;font-size: 14px;line-height: 27px;letter-spacing: 0.04em;">Amazing clarity and astonishing bass from beautiful shoebox-sized speakers; the Harbeth P3ESR loudspeaker is the ultimate mini-monitor. The clean, clear Harbeth sound, in miniature.<br></p>
-                </div>
+                {{ /collection:products }}
             </div>
         </div>
     </div>

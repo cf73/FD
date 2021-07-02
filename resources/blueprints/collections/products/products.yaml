@@ -1,0 +1,55 @@
+title: Products
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: brand
+        field:
+          max_items: 1
+          mode: default
+          collections:
+            - distributed_brands
+            - brand_ambassador
+          display: Brand
+          type: entries
+          icon: entries
+          listable: hidden
+      -
+        handle: main_product_image
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: 'Main product image'
+          type: assets
+          icon: assets
+          listable: hidden
+      -
+        handle: brief_product_blurb
+        field:
+          character_limit: '400'
+          antlers: false
+          display: 'Brief product blurb'
+          type: textarea
+          icon: textarea
+          listable: hidden
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
