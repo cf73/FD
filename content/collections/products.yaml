@@ -2,7 +2,7 @@ title: Products
 template: default
 layout: layout
 revisions: false
-route: '{current_url}/{slug}'
+route: '/{{get_content:brand}}{{brand_type}}{{/get_content:brand}}/{{get_content:brand}}{{title}}{{/get_content:brand}}/{{slug}}'
 sort_dir: asc
 date_behavior:
   past: public

@@ -1,8 +1,8 @@
-title: 'Distributed Brands'
+title: Brands
 template: default
 layout: layout
 revisions: false
-route: '/distributed-brands/{{title}}'
+route: '/{{brand_type}}/{{title}}'
 sort_dir: asc
 date_behavior:
   past: public

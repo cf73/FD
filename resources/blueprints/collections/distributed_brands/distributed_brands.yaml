@@ -1,4 +1,4 @@
-title: 'Distributed Brands'
+title: Brands
 sections:
   main:
     display: Main
@@ -10,6 +10,24 @@ sections:
           required: true
           validate:
             - required
+      -
+        handle: brand_type
+        field:
+          options:
+            distributed-brands: 'Distributed Brand'
+            brand-ambassador: 'Brand Ambassador'
+          multiple: false
+          max_items: 1
+          clearable: false
+          searchable: false
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: 'Brand Type'
+          type: select
+          icon: select
+          instructions: 'What type of brand is this?'
+          listable: hidden
       -
         handle: main_image
         field:

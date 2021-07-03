@@ -6,7 +6,8 @@ main_image: lab12-image-website-1-2.jpg
 logo: LAB12.png
 tagline: 'Lab12 tagline here'
 updated_by: 9e9e9f09-d942-49ec-a6d9-c55a0f708843
-updated_at: 1625241079
+updated_at: 1625260816
 background-image: lab12-image-website-1-2.jpg
 template: brand
+brand_type: distributed-brands
 ---

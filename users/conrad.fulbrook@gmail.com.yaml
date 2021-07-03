@@ -7,6 +7,9 @@ preferences:
     distributed_brands:
       columns:
         - title
+    products:
+      columns:
+        - title
   assets:
     assets:
       mode: grid
