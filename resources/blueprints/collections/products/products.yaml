@@ -16,8 +16,7 @@ sections:
           max_items: 1
           mode: default
           collections:
-            - distributed_brands
-            - brand_ambassador
+            - brands
           display: Brand
           type: entries
           icon: entries
