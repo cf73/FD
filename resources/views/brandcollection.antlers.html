@@ -1,0 +1,15 @@
+{{collection:brands brand_type:is="{last_segment}"}}
+    <section data-aos="fade" data-aos-duration="2900" style="position: relative;">
+        <div class="d-flex flex-column align-items-center justify-content-lg-center text-content" id="text-content">
+            <img data-aos="fade-up" data-aos-duration="700" data-aos-delay="150" class="brand-logo" src="{{logo}}">
+            <h1 data-aos="fade-up" data-aos-duration="900" data-aos-delay="350" style="color: white;font-family: Poppins, sans-serif;font-size: 24px;font-weight: 500;line-height: 33px;max-width: 400px;text-align: center;"><strong>{{tagline}}</strong></h1>
+            <a href="{{url}}">
+                <button class="btn btn-primary" data-aos="fade-up" data-aos-duration="950" data-aos-delay="450" type="button" style="margin-top: 24px;">
+                    See <strong>{{title}}</strong>
+                </button>
+            </a>
+        </div>
+        <div class="dimmer"></div>
+        <div data-bss-parallax-bg="true" class="parallax-height" style="background: url({{main_image}}) center / cover;/*filter: blur(3px);*/"></div>
+    </section>
+{{/collection:brands}}
