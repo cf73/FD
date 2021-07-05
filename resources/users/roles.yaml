@@ -1,6 +1,7 @@
 editor:
   title: Editor
   permissions:
+    - 'access cp'
     - 'view products entries'
     - 'edit products entries'
     - 'create products entries'
