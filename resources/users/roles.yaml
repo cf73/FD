@@ -1,4 +1,30 @@
-# admin:
-#   title: Administrator
-#   permissions:
-#     - super
+editor:
+  title: Editor
+  permissions:
+    - 'access cp'
+    - 'view products entries'
+    - 'edit products entries'
+    - 'create products entries'
+    - 'delete products entries'
+    - 'publish products entries'
+    - 'reorder products entries'
+    - 'edit other authors products entries'
+    - 'publish other authors products entries'
+    - 'delete other authors products entries'
+    - 'view brands entries'
+    - 'edit brands entries'
+    - 'create brands entries'
+    - 'delete brands entries'
+    - 'publish brands entries'
+    - 'reorder brands entries'
+    - 'edit other authors brands entries'
+    - 'publish other authors brands entries'
+    - 'delete other authors brands entries'
+    - 'view main nav'
+    - 'edit main nav'
+    - 'view assets assets'
+    - 'upload assets assets'
+    - 'edit assets assets'
+    - 'move assets assets'
+    - 'rename assets assets'
+    - 'delete assets assets'

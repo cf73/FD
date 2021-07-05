@@ -21,3 +21,13 @@ a {
         color: lavender;
     }
 }
+p {
+    color: white;
+    font-family: $sans;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    max-width: 600px;
+    margin: 0 auto;
+}
