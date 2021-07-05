@@ -20,15 +20,18 @@
                         <a href="{{ url }}"{{ if is_current || is_parent }} class="current nav-link" {{else}} class="nav-link" {{ /if }}>
                         {{ title }}
                         </a>
+                        {{ if is_current || is_parent }}
+            {{ if children }}
+               <ul>{{ *recursive children* }}</ul>
+            {{ /if }}
+         {{ /if }}
                     </li>
                 {{ /nav:main }}
              </ul>
                 
             <div id="left-gradient" style="background: linear-gradient(90deg, #050B20 0%, rgba(5, 11, 32, 0) 100%);position: fixed;top: 0;left: 0;width: 333px;height: 100%;z-index: 999;"></div>
         </header>
-        <div class="mx-auto px-2 h-screen flex items-center justify-center">
-            {{ template_content }}
-        </div>
+        {{ template_content }}
         <script src="{{ mix src='/js/site.js' }}"></script>
         <script src="/js/bootstrap.min.js"></script>
         <script src="/js/bs-init.js"></script>

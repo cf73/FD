@@ -4,6 +4,20 @@ h1 {
   font-family: Poppins, sans-serif;
   font-weight: 800; }
 
+h2 {
+  font-size: 200px;
+  line-height: 200px;
+  font-family: Poppins, sans-serif;
+  font-weight: 800;
+  margin-bottom: 30px;
+  color: #ffffff; }
+
+a {
+  color: white;
+  text-decoration: none; }
+  a :hover {
+    color: lavender; }
+
 body {
   background-color: #070113; }
 
@@ -21,7 +35,8 @@ a:hover {
   color: #dad9e6; }
 
 .current {
-  color: white; }
+  color: white;
+  font-weight: 800; }
 
 .dimmer {
   position: absolute;
