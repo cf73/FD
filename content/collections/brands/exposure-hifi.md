@@ -5,7 +5,7 @@ title: 'Exposure Hi Fi'
 brand_type: distributed-brands
 template: brand
 updated_by: f5a52cfe-c2b0-4fa6-ab5e-8e476787161d
-updated_at: 1625528595
+updated_at: 1625528638
 main_image: Exposure-3010S2D-integrated-with-CD-player-lifestyle-2-1-1625523258.png
 background-image: Exposure-3010S2D-integrated-with-CD-player-lifestyle-2-1.png
 logo: Exposure-1625523279.png
