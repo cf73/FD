@@ -22,11 +22,15 @@
             </div>
             <div class="row" style="margin-top: 55px;">
                 {{ collection:products :brand:is="id" }}
+                {{if no_results}}
+                    <p>Nancy, add some products!</p>
+                {{else}}
                 <div class="col-4" data-aos="fade-up" data-aos-duration="{{increment from='500' by='150'}}" data-aos-delay="{{increment from='0' by='100'}}"><img src="{{main_product_image}}" style="width: 100%;">
                     <h3 style="color: rgb(209,210,238);">{{title}}</h3>
                     <p style="color: rgb(209,210,238);font-family: Poppins, sans-serif;margin-top: 20px;font-size: 14px;line-height: 27px;letter-spacing: 0.04em;">{{brief_product_blurb}}</p>
                     <a href="{{url}}"><button class="btn btn-primary" type="button">Explore the <strong>{{title}}</strong></button></a>
                 </div>
+                {{/if}}
                 {{ /collection:products }}
             </div>
         </div>
