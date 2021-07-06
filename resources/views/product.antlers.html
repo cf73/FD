@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class="row" style="margin-top: 115px;">
-                <h3 style="color: rgb(209,210,238); margin-bottom: 30px;" data-aos="fade-up" data-aos-duration="{{increment from='500' by='150'}}">Other products by this brand:</h3>
+                <h3 style="color: rgb(209,210,238); margin-bottom: 30px;" data-aos="fade-up" data-aos-duration="{{increment from='500' by='150'}}">Other products by {{brand}}{{title}}{{/brand}}:</h3>
                 {{ collection:products :brand:is="brand:id" :id:isnt="id" }}
                 <div class="col-4" data-aos="fade-up" data-aos-duration="{{increment from='500' by='150'}}" data-aos-delay="{{increment from='0' by='100'}}"><img src="{{main_product_image}}" style="width: 100%;">
                     <h3 style="color: rgb(209,210,238);">{{title}}</h3>
