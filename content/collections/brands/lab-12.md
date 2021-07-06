@@ -7,7 +7,7 @@ main_image: lab12-image-website-1-2.jpg
 background-image: lab12-image-website-1-2.jpg
 template: brand
 logo: LAB12.png
-tagline: 'Lab12 tagline here...'
-updated_by: 9e9e9f09-d942-49ec-a6d9-c55a0f708843
-updated_at: 1625423345
+tagline: 'emotion... detail... music'
+updated_by: f5a52cfe-c2b0-4fa6-ab5e-8e476787161d
+updated_at: 1625533440
 ---
