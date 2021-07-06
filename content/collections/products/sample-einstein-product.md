@@ -9,5 +9,12 @@ brief_product_blurb: |-
   The new EINSTEIN integrated amplifier The Tune contains all our experience in analog design and digital technique.
   This new integrated meets absolute high end standard and is the perfect control center for digital media. It is a unique Einstein product that is exemplary for the sound and circuit philosophy that made Einstein a company with international reputation and worldwide approval.
 updated_by: 9e9e9f09-d942-49ec-a6d9-c55a0f708843
-updated_at: 1625423743
+updated_at: 1625532829
+product_blurb:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'The Tune MKII– Integrated Amplifier with optional digital input The new EINSTEIN integrated amplifier The Tune contains all our experience in analog design and digital technique. This new integrated meets absolute high end standard and is the perfect control center for digital media.'
 ---
