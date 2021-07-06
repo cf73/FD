@@ -7,5 +7,12 @@ brand: 10773795-b9a1-4e8e-9b0d-ec53686861c7
 main_product_image: C7ES-3-XD.png
 brief_product_blurb: 'Allow sensational music moments to come to life at the comfort of your home with the multi-award winning, medium-sized C7ES-3 XD loudspeaker. Acclaimed for its accurate three-dimensional sound, this speaker will impress even the most religious demands of an audiophile.'
 updated_by: 9e9e9f09-d942-49ec-a6d9-c55a0f708843
-updated_at: 1625435945
+updated_at: 1625532637
+product_blurb:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'The C7ES-3 XD Allow the musical experience to come to life in the comfort of your home with the multi-award winning C7ES-3 XD loudspeaker. Acclaimed for its accurate three dimensional sound, this speaker will impress even the most religious demands of an audiophile.'
 ---
