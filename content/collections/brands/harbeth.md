@@ -9,8 +9,8 @@ detail_image: 1_QMKx9XP-5T20glT3M6Czbg.png
 template: brand
 logo: Harbeth-logo-min.png
 tagline: 'Refining the art of loudspeaker design'
-updated_by: 9e9e9f09-d942-49ec-a6d9-c55a0f708843
-updated_at: 1625523546
+updated_by: f5a52cfe-c2b0-4fa6-ab5e-8e476787161d
+updated_at: 1625531612
 brand_blurb:
   -
     type: paragraph
