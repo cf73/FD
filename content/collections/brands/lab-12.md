@@ -9,5 +9,5 @@ template: brand
 logo: LAB12.png
 tagline: 'emotion... detail... music'
 updated_by: f5a52cfe-c2b0-4fa6-ab5e-8e476787161d
-updated_at: 1625533440
+updated_at: 1625533495
 ---
