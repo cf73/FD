@@ -1,5 +1,6 @@
 ---
 id: bf120169-2f16-4853-8f3c-a0ce89cd5e6a
+published: false
 blueprint: products
 title: Octopus
 template: product
