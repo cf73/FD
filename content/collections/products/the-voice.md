@@ -1,5 +1,6 @@
 ---
 id: eea80e39-060b-4928-9a47-551852cc7841
+published: false
 blueprint: products
 title: 'The Voice'
 brand: 52761d36-b693-486d-946b-b2b412669989
