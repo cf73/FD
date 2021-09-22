@@ -1,5 +1,6 @@
 ---
 id: 0cd53415-fc86-421e-93e5-5834e6b6bed2
+published: false
 blueprint: products
 title: 'sample stenheim product'
 template: product
