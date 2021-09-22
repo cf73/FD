@@ -8,6 +8,6 @@ template: brand
 logo: stenheim-logo--gris.jpg
 tagline: 'Swiss Made Audio Excellence'
 updated_by: f5a52cfe-c2b0-4fa6-ab5e-8e476787161d
-updated_at: 1632341081
+updated_at: 1632341094
 detail_image: Screenshot-2021-09-22-at-14-14-46-Stenheim-1632334588.png
 ---
