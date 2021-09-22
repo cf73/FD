@@ -5,9 +5,9 @@ title: Stenheim
 brand_type: brand-ambassador
 background-image: 20190407173455_Stenheim-AlumineThreeFrontWeb.jpg
 template: brand
-logo: logo-gris.png
+logo: stenheim-logo--gris.jpg
 tagline: 'Swiss Made Audio Excellence'
 updated_by: f5a52cfe-c2b0-4fa6-ab5e-8e476787161d
-updated_at: 1632340495
+updated_at: 1632341081
 detail_image: Screenshot-2021-09-22-at-14-14-46-Stenheim-1632334588.png
 ---
